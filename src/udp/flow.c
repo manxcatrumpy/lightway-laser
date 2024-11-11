@@ -44,7 +44,7 @@ void on_read(uv_udp_t *handle, ssize_t nread, const uv_buf_t *buf, const struct 
     goto cleanup;
   }
 
-  if(nread <= sizeof(he_wire_hdr_t)) {
+  if (nread <= (ssize_t)sizeof(he_wire_hdr_t)) {
     // Noise
     goto cleanup;
   }

@@ -73,7 +73,8 @@ static void internal_tun_set_ip_ioctl(int s, unsigned long req, const char *name
 }
 
 static void internal_tun_set_mtu_ioctl(int s, const char *name, const int mtu) {
-  struct ifreq req = {0};
+  struct ifreq req;
+  memset(&req, 0, sizeof(struct ifreq));
   strncpy(req.ifr_name, name, sizeof(req.ifr_name) - 1);
   req.ifr_ifru.ifru_mtu = mtu;
 
@@ -82,7 +83,8 @@ static void internal_tun_set_mtu_ioctl(int s, const char *name, const int mtu) {
 }
 
 static void internal_tun_set_flags_up(int s, const char *name) {
-  struct ifreq req = {0};
+  struct ifreq req;
+  memset(&req, 0, sizeof(struct ifreq));
   strncpy(req.ifr_name, name, sizeof(req.ifr_name) - 1);
 
   int res = ioctl(s, SIOCGIFFLAGS, &req);

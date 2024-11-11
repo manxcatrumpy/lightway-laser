@@ -20,6 +20,8 @@
 #ifndef LW_TUN_UTIL_H
 #define LW_TUN_UTIL_H
 
+#include <sys/types.h>
+#include <sys/socket.h>
 #include <linux/if.h>
 #include <linux/if_tun.h>
 #include <stdint.h>

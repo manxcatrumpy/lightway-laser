@@ -1,0 +1,273 @@
+/* wolfssl options.h
+ * generated from configure options
+ *
+ * Copyright (C) 2006-2023 wolfSSL Inc.
+ *
+ * This file is part of wolfSSL. (formerly known as CyaSSL)
+ *
+ */
+
+#ifndef WOLFSSL_OPTIONS_H
+#define WOLFSSL_OPTIONS_H
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#undef  WOLFSSL_HAVE_ATOMIC_H
+#define WOLFSSL_HAVE_ATOMIC_H
+
+#undef  HAVE_LIBOQS
+#define HAVE_LIBOQS
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  WOLFSSL_ARM_ARCH
+#define WOLFSSL_ARM_ARCH 7
+
+#undef  WOLFSSL_HAVE_ATOMIC_H
+#define WOLFSSL_HAVE_ATOMIC_H
+
+#undef  HAVE_LIBOQS
+#define HAVE_LIBOQS
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  HAVE_C___ATOMIC
+#define HAVE_C___ATOMIC 1
+
+#undef  HAVE_THREAD_LS
+#define HAVE_THREAD_LS
+
+#undef  NO_DO178
+#define NO_DO178
+
+#undef  HAVE_LIBOQS
+#define HAVE_LIBOQS
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  SINGLE_THREADED
+#define SINGLE_THREADED
+
+#undef  WOLFSSL_DTLS
+#define WOLFSSL_DTLS
+
+#undef  WOLFSSL_DTLS_MTU
+#define WOLFSSL_DTLS_MTU
+
+#undef  TFM_TIMING_RESISTANT
+#define TFM_TIMING_RESISTANT
+
+#undef  ECC_TIMING_RESISTANT
+#define ECC_TIMING_RESISTANT
+
+#undef  WC_RSA_BLINDING
+#define WC_RSA_BLINDING
+
+#undef  WC_AES_BITSLICED
+#define WC_AES_BITSLICED
+
+#undef  HAVE_AES_ECB
+#define HAVE_AES_ECB
+
+#undef  WOLFSSL_AES_DIRECT
+#define WOLFSSL_AES_DIRECT
+
+#undef  WOLFSSL_USE_ALIGN
+#define WOLFSSL_USE_ALIGN
+
+#undef  WOLFSSL_SHA512
+#define WOLFSSL_SHA512
+
+#undef  WOLFSSL_SHA384
+#define WOLFSSL_SHA384
+
+#undef  HAVE_HKDF
+#define HAVE_HKDF
+
+#undef  NO_DSA
+#define NO_DSA
+
+#undef  HAVE_ECC
+#define HAVE_ECC
+
+#undef  TFM_ECC256
+#define TFM_ECC256
+
+#undef  ECC_SHAMIR
+#define ECC_SHAMIR
+
+#undef  HAVE_CURVE25519
+#define HAVE_CURVE25519
+
+#undef  NO_OLD_TLS
+#define NO_OLD_TLS
+
+#undef  WC_RSA_PSS
+#define WC_RSA_PSS
+
+#undef  WOLFSSL_PSS_LONG_SALT
+#define WOLFSSL_PSS_LONG_SALT
+
+#undef  NO_DH
+#define NO_DH
+
+#undef  WOLFSSL_ASN_TEMPLATE
+#define WOLFSSL_ASN_TEMPLATE
+
+#undef  WOLFSSL_ASN_PRINT
+#define WOLFSSL_ASN_PRINT
+
+#undef  WOLFSSL_SEND_HRR_COOKIE
+#define WOLFSSL_SEND_HRR_COOKIE
+
+#undef  WOLFSSL_DTLS13
+#define WOLFSSL_DTLS13
+
+#undef  WOLFSSL_W64_WRAPPER
+#define WOLFSSL_W64_WRAPPER
+
+#undef  WOLFSSL_AES_DIRECT
+#define WOLFSSL_AES_DIRECT
+
+#undef  WOLFSSL_DTLS_CH_FRAG
+#define WOLFSSL_DTLS_CH_FRAG
+
+#undef  WOLFSSL_NO_SHAKE128
+#define WOLFSSL_NO_SHAKE128
+
+#undef  WOLFSSL_NO_SHAKE256
+#define WOLFSSL_NO_SHAKE256
+
+#undef  HAVE_POLY1305
+#define HAVE_POLY1305
+
+#undef  HAVE_CHACHA
+#define HAVE_CHACHA
+
+#undef  HAVE_HASHDRBG
+#define HAVE_HASHDRBG
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  HAVE_SNI
+#define HAVE_SNI
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  HAVE_SECURE_RENEGOTIATION
+#define HAVE_SECURE_RENEGOTIATION
+
+#undef  HAVE_SERVER_RENEGOTIATION_INFO
+#define HAVE_SERVER_RENEGOTIATION_INFO
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  HAVE_SUPPORTED_CURVES
+#define HAVE_SUPPORTED_CURVES
+
+#undef  HAVE_SUPPORTED_CURVES
+#define HAVE_SUPPORTED_CURVES
+
+#undef  WOLFSSL_TLS13
+#define WOLFSSL_TLS13
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  HAVE_EXTENDED_MASTER
+#define HAVE_EXTENDED_MASTER
+
+#undef  NO_RC4
+#define NO_RC4
+
+#undef  HAVE_ENCRYPT_THEN_MAC
+#define HAVE_ENCRYPT_THEN_MAC
+
+#undef  NO_PSK
+#define NO_PSK
+
+#undef  NO_MD4
+#define NO_MD4
+
+#undef  WOLFSSL_HAVE_SP_RSA
+#define WOLFSSL_HAVE_SP_RSA
+
+#undef  WOLFSSL_SP_4096
+#define WOLFSSL_SP_4096
+
+#undef  WOLFSSL_HAVE_SP_ECC
+#define WOLFSSL_HAVE_SP_ECC
+
+#undef  WOLFSSL_SP_MATH_ALL
+#define WOLFSSL_SP_MATH_ALL
+
+#undef  WOLFSSL_SP_ARM32
+#define WOLFSSL_SP_ARM32
+
+#undef  WOLFSSL_SP_ASM
+#define WOLFSSL_SP_ASM
+
+#undef  WOLFSSL_SP_ARM32_ASM
+#define WOLFSSL_SP_ARM32_ASM
+
+#undef  WC_NO_ASYNC_THREADING
+#define WC_NO_ASYNC_THREADING
+
+#undef  NO_DES3
+#define NO_DES3
+
+#undef  GCM_TABLE_4BIT
+#define GCM_TABLE_4BIT
+
+#undef  HAVE_AESGCM
+#define HAVE_AESGCM
+
+#undef  HAVE_TLS_EXTENSIONS
+#define HAVE_TLS_EXTENSIONS
+
+#undef  HAVE_SERVER_RENEGOTIATION_INFO
+#define HAVE_SERVER_RENEGOTIATION_INFO
+
+#undef  WOLFSSL_TEST_STATIC_BUILD
+#define WOLFSSL_TEST_STATIC_BUILD
+
+#undef  HAVE_WC_INTROSPECTION
+#define HAVE_WC_INTROSPECTION
+
+#ifndef WOLFSSL_OPTIONS_IGNORE_SYS
+#undef  _FORTIFY_SOURCE
+#define _FORTIFY_SOURCE 2
+#endif
+
+#undef  WOLFSSL_MIN_RSA_BITS
+#define WOLFSSL_MIN_RSA_BITS 2048
+
+#undef  WOLFSSL_MIN_ECC_BITS
+#define WOLFSSL_MIN_ECC_BITS 256
+
+#undef  FP_MAX_BITS
+#define FP_MAX_BITS 8192
+
+#undef  WOLFSSL_NO_SPHINCS
+#define WOLFSSL_NO_SPHINCS
+
+#undef  WOLFSSL_TLS13_MIDDLEBOX_COMPAT
+#define WOLFSSL_TLS13_MIDDLEBOX_COMPAT
+
+
+#ifdef __cplusplus
+}
+#endif
+
+
+#endif /* WOLFSSL_OPTIONS_H */
+

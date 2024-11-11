@@ -168,7 +168,7 @@ void configure_helium_client(lw_config_t *config, lw_state_t *state) {
   char *ca_buf = NULL;
   size_t length = slurp_file(config->crt_path, &ca_buf);
   LW_CHECK_WITH_MSG(length > 0, "Unable to slurp certificate file");
-  res = he_ssl_ctx_set_ca(state->he_ctx, ca_buf, length);
+  res = he_ssl_ctx_set_ca(state->he_ctx, (uint8_t*)ca_buf, length);
   LW_CHECK_WITH_MSG(res == HE_SUCCESS, "Failed to set the server key path");
 
   state->he_conn = he_conn_create();
